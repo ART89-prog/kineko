@@ -1,0 +1,41 @@
+@media print, (max-width: 1187px) {
+
+    /* :root {
+        --font_size: 16px;
+        --font_size_title: 35px;
+    } */
+
+
+    .about_video {
+        width: 380px;
+        height: 221px;
+    }
+    .about_left {
+        width: calc(100% - 660px);
+    }
+    .about_right {
+        width: 660px;
+        position: relative;
+    }
+    .footer_menu li {
+        line-height: 40px;
+        white-space: nowrap;
+    }
+    .footer_menu {
+        column-gap: 5px;
+    }
+    .footer_contacts {
+        padding-left: 22px;
+    }
+    .footer_politic {
+        margin-top: 35px;
+    }
+    .about,
+    .reviews,
+    .callback,
+    footer {
+        padding: 50px 0;
+    }
+
+
+}

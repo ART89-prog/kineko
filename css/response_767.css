@@ -1,0 +1,40 @@
+@media print, (max-width: 767px) {
+
+    /* :root {
+        --font_size: 15px;
+        --font_size_title: 24px;
+    } */
+   
+
+    .header_info-mob {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .header_info {
+        display: none;
+    }
+    .header_contacts {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_btn {
+        margin: 20px auto 0;
+    }
+    header .menu {
+        padding: 30px;
+    }
+    header .menu .item a {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+
+
+
+
+
+
+}
