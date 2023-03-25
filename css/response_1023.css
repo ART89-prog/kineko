@@ -108,7 +108,8 @@
     footer,
     .service,
     .work,
-    .certificate {
+    .certificate,
+    .contacts {
         padding: 40px 0;
     }
     .footer_wrap {
@@ -132,6 +133,11 @@
     .work_items > * {
         width: calc(100%/3 - 20px);
         margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .contacts-page .callback_text {
+        font-size: 19px;
+        line-height: 25px;
         margin-bottom: 20px;
     }
 

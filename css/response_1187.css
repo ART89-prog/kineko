@@ -36,7 +36,8 @@
     footer,
     .service,
     .work,
-    .certificate {
+    .certificate,
+    .contacts {
         padding: 50px 0;
     }
     .service_items {
