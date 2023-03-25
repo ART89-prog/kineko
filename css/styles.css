@@ -1370,6 +1370,17 @@ footer {
     text-align: center;
     color: #FFFFFF;
 }
+.partners-page .header_btn {
+    display: flex;
+    align-items: center;
+}
+.header_btn-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 25px;
+}
 
 
 
