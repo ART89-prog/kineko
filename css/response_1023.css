@@ -109,7 +109,9 @@
     .service,
     .work,
     .certificate,
-    .contacts {
+    .contacts,
+    .projects,
+    .operation {
         padding: 40px 0;
     }
     .footer_wrap {
@@ -139,6 +141,23 @@
         font-size: 19px;
         line-height: 25px;
         margin-bottom: 20px;
+    }
+
+    .projects_item-img  {
+        width: 330px;
+        height: 206px;
+    }
+    .projects_item-info {
+        max-width: calc(100% - 370px);
+    }
+    .projects_item-info p {
+        margin-bottom: 15px;
+    }
+    .projects_item:nth-child(2n + 1) .projects_item-info {
+        margin-right: 20px;
+    }
+    .projects_item:nth-child(2n) .projects_item-info {
+        margin-left: 20px;
     }
 
 

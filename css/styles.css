@@ -192,13 +192,10 @@ input[type=number] {
     Global styles
 -------------------*/
 :root {
-    --text_color: #758481;
+    --text_color: #222427;
     --font_size: 16px;
-    --font_size_title: 48px;
+    --font_size_title: 46px;
     --font_family: 'Futura New';
-    --bg: #0AA7B1;
-    --text_bg1: #9AC731;
-    --text_bg2: #AFED1F;
 }
 
 
@@ -408,7 +405,7 @@ header .menu .item a {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5;
-    color: #222427;
+    color: var(--text_color);
     position: relative;
     transition: color .2s linear;
     text-decoration: none;
@@ -459,7 +456,7 @@ header .cont {
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
-    color: #222427;
+    color: var(--text_color);
     margin-right: auto;
 }
 .header_logo img {
@@ -470,7 +467,7 @@ header .cont {
     font-weight: 400;
     font-size: 20px;
     line-height: 1;
-    color: #222427;
+    color: var(--text_color);
 }
 .btn-callback {
     width: 172px;
@@ -493,7 +490,7 @@ header .cont {
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;    
-    color: #222427; 
+    color: var(--text_color);
     text-decoration: none;
     white-space: nowrap;
 }
@@ -501,7 +498,7 @@ header .cont {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: #222427; 
+    color: var(--text_color);
     white-space: nowrap; 
 }
 .header_info {
@@ -526,7 +523,7 @@ header .cont {
 }
 .title {
     font-weight: 600;
-    font-size: 46px;
+    font-size: var(--font_size_title);
     line-height: 1.3;
     color: #404040; 
     display: inline-block;
@@ -558,7 +555,7 @@ header .cont {
     padding-left: 24px;  
     margin-bottom: 19px;  
     font-weight: 300;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     color: #000000;
 }
@@ -702,7 +699,7 @@ header .cont {
     font-weight: 600;
     font-size: 22px;
     line-height: 19px;
-    color: #222427;
+    color: var(--text_color);
     margin-bottom: 20px;
 }
 .reviews_info-text {
@@ -743,7 +740,7 @@ header .cont {
 }
 .callback_title {
     font-weight: 700;
-    font-size: 46px;
+    font-size: var(--font_size_title);
     line-height: 60px;
     color: #FFFFFF;
     z-index: 3;
@@ -782,7 +779,7 @@ form .field input {
     border: 1px solid #EAEAEA;
     border-radius: 4px;  
     padding-left: 41px;
-    font-family: 'Futura New';
+    font-family: var(--font_family);
     font-weight: 450;
     font-size: 14px;
     line-height: 17px;
@@ -794,7 +791,7 @@ form button {
     background: #0079C0;
     border-radius: 4px; 
     font-weight: 400;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 60px;
     text-align: center;
     color: #FFFFFF;
@@ -938,7 +935,7 @@ footer {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #222427;
+    color: var(--text_color);
 }
 
 
@@ -1002,7 +999,7 @@ footer {
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #222427;
+    color: var(--text_color);
     margin-top: 45px;
 }
 
@@ -1050,14 +1047,14 @@ footer {
 .contacts_phone a {
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     color: #000000;   
 }
 .contacts_email a {
     text-decoration: none;
     font-weight: 300;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     color: #2681A8;   
 }
@@ -1082,7 +1079,7 @@ footer {
 }
 .contacts_info span {
     font-weight: 300;
-    font-size: 16px;
+    font-size: var(--font_size);
     line-height: 19px;
     color: #000000;
 }
@@ -1125,12 +1122,11 @@ footer {
     margin-right: 26px;
     resize: none;
     padding: 16px 20px;
-    font-family: 'Futura New';
     font-weight: 450;
     font-size: 14px;
     line-height: 17px;
     color: #404040;
-    font-family: 'Futura New';
+    font-family: var(--font_family);
 }
 .contacts-page .callback form .line {
     width: 100%;
@@ -1142,6 +1138,137 @@ footer {
 .btn-mob {
     display: none;
 }
+
+
+
+
+
+.projects {
+    margin-top: 90px;
+    padding: 65px 0 100px;
+}
+.cont {
+}
+.projects_title {
+}
+.title {
+}
+.projects_items {
+}
+.projects_item {
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    margin-bottom: 100px;    
+}
+.projects_item:last-child {
+    margin-bottom: 0;
+}
+.projects_item:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.projects_item-info {
+    max-width: 507px;
+    width: 100%;
+    font-weight: 300;
+    font-size: var(--font_size);
+    line-height: 19px;
+    color: #000000;
+}
+.projects_item-info p {
+    margin-bottom: 25px;
+}
+.projects_item-info span {
+    font-weight: 600;
+}
+.projects_item-info blockquote {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(47, 51, 53, 0.05);
+    border-radius: 5px; 
+    padding: 29px 26px 22px;
+}
+.projects_item:nth-child(2n) .projects_item-info {
+    margin-left: 151px;
+}  
+.projects_item:nth-child(2n + 1) .projects_item-info {
+    margin-right: 151px;
+}  
+.projects_item-img  {
+    width: 631px;
+    height: 394px;
+    flex-shrink: 0;
+}
+.projects_item-img img  {
+    box-shadow: 0px 20px 20px rgba(47, 51, 53, 0.2);
+    border-radius: 5px;  
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.benefits {
+    margin: 103px 0;    
+}
+.benefits_text {
+    padding: 48px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(32, 28, 28, 0.75), rgba(32, 28, 28, 0.75)), url(../images/benefits_bg.png);
+    border-radius: 5px;
+}
+.benefits_text p {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 874px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.operation {
+    margin-top: 90px;
+    padding: 65px 0 98px;
+}
+.operation_items {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-left: -79px;
+    margin-bottom: -69px;
+}
+.operation_items > * {
+    width: calc(100%/3 - 79px);
+    margin-left: 79px;
+    margin-bottom: 69px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(47, 51, 53, 0.2);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    min-height: 221px;
+}
+.operation_item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: var(--text_color);
+}
+
+
+
 
 
 .modal {
