@@ -33,9 +33,22 @@
     .about,
     .reviews,
     .callback,
-    footer {
+    footer,
+    .service,
+    .work {
         padding: 50px 0;
     }
+    .service_items {
+        margin-left: -20px;
+        margin-bottom: -30px;
+    }
+    .service_items > * {
+        width: calc(100%/3 - 20px);
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+
 
 
 }

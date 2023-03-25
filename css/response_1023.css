@@ -105,14 +105,34 @@
     .about, 
     .reviews, 
     .callback,
-    footer {
+    footer,
+    .service,
+    .work {
         padding: 40px 0;
     }
     .footer_wrap {
         align-items: center;
     }
 
-
+    .service_item-title,
+    .work_item-title {
+        margin-top: 26px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .service_item-img:after,
+    .work_item-img:after {
+        bottom: -16px;
+    }
+    .work_items {
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+    .work_items > * {
+        width: calc(100%/3 - 20px);
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
 
 
 

@@ -72,7 +72,14 @@
         width: calc(100% - 700px);
     }
     .callback_img {
-        bottom: -80px;
+        bottom: -105px;
+    }
+
+    .button-more {
+        display: none;
+    }
+    .work_title {
+        margin-bottom: 25px;
     }
 
 
