@@ -111,7 +111,8 @@
     .certificate,
     .contacts,
     .projects,
-    .operation {
+    .operation,
+    .partners {
         padding: 40px 0;
     }
     .footer_wrap {
@@ -160,6 +161,27 @@
         margin-left: 20px;
     }
 
+    .partners_items > * {
+        width: calc(100%/2 - 20px);
+    }
+
+    .header_img {
+        display: none;
+    }
+    .partners-page header .cont:after {
+        display: none;
+    }
+    .header_bottom  {
+        margin-top: 80px;
+    }
+    .header_bottom-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .partners-page header {
+        padding: 13px 0 60px;
+    }
 
 
 

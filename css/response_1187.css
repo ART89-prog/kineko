@@ -39,7 +39,8 @@
     .certificate,
     .contacts,
     .projects,
-    .operation {
+    .operation,
+    .partners {
         padding: 50px 0;
     }
     .service_items {
@@ -78,6 +79,13 @@
         margin-bottom: 30px;
     }
 
+
+    .partners_items > * {
+        width: calc(100%/3 - 20px);
+    }
+    .header_img {
+        bottom: -305px;
+    }
 
 
 }

@@ -1354,6 +1354,8 @@ footer {
 }
 .header_bottom {
     margin-top: 225px;
+    z-index: 4;
+    position: relative;
 }
 .partners-page .header_btn button {
     width: 172px;
@@ -1380,6 +1382,7 @@ footer {
     line-height: 60px;
     text-align: center;
     color: #FFFFFF;
+    flex-shrink: 0;
 }
 .header_btn-text {
     font-weight: 400;
@@ -1396,7 +1399,7 @@ footer {
 
 
 .partners {
-    padding: 150px 95px;
+    padding: 150px 0 95px;
     background: #fafafa;
 }
 .partners_title {
@@ -1437,6 +1440,7 @@ footer {
     background: #FFFFFF;
     border-radius: 5px;
     margin-bottom: 22px;
+    padding: 30px;
 }
 .partners_item-title {
     font-weight: 450;
@@ -1462,6 +1466,7 @@ footer {
 .modal {
     border-radius: 5px;
     display: none;
+    max-width: 500px;
 }
 
 .button-more {

@@ -103,7 +103,8 @@
     .work,
     .contacts,
     .projects,
-    .operation {
+    .operation,
+    .partners {
         padding: 30px 0;
     }
     .footer_menu li {
@@ -227,6 +228,67 @@
         width: calc(100%/2 - 20px);
         margin-left: 20px;
         margin-bottom: 30px;
+    }
+
+    .partners_items > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .partners_items {
+        margin-left: 0;
+    }
+    .partners_item-img {
+        padding: 15px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    .partners_title:before {
+        bottom: -10px;
+    }
+
+    .partners-page .header_contacts a {
+        color: #000;
+    } 
+    .partners-page .header_contacts span {
+        color: #000;
+    }
+    .header_bottom-title {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 25px;
+    }
+    .header_bottom-title br {
+        display: none;
+    }
+    .header_bottom-text {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+    .header_bottom {
+        margin-top: 61px;
+    }
+    .header_bottom-text:before {
+        display: none;
+    }
+    .header_advantages {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .header_advantages-item {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .partners-page .header_consultation {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .header_btn-text {
+        margin-left: 0;
+        margin-top: 15px;
     }
 
 
