@@ -440,10 +440,10 @@ header {
     position: fixed;
     z-index: 200;
     background: #fff;
-    width: 100%;
+    width: 100%;    
 }
 
-header .cont {
+.header_top {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -468,6 +468,7 @@ header .cont {
     font-size: 20px;
     line-height: 1;
     color: var(--text_color);
+    margin-top: -8px;
 }
 .btn-callback {
     width: 172px;
@@ -504,6 +505,7 @@ header .cont {
 .header_info {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 .header_info-mob {
     display: none;
@@ -1268,6 +1270,106 @@ footer {
 }
 
 
+
+.partners-page header {
+    background: url(../images/header_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 13px 0 267px;
+    position: relative;
+}
+.partners-page header .cont {
+    position: relative;
+}
+.partners-page header .cont:after {
+    position: absolute;
+    content: "";
+    width: 417px;
+    height: calc(100% + 280px);
+    background: rgba(0, 121, 192, 0.47);
+    right: -18px;
+    top: -13px;
+    z-index: -1;
+}
+.partners-page .header_contacts a {
+    color: #fff;
+}
+.partners-page .header_contacts span {
+    color: #fff;
+}
+.partners-page .btn-callback {
+    border: 1px solid #fff;
+    color: #fff;
+}
+.partners-page .header_logo span {
+    color: #fff;
+}
+.partners-page header .menu .item a {
+    color: #fff;
+}
+.partners-page .header_top {
+    top: 11px;
+    position: fixed;
+}
+.header_bottom-title {
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+.header_bottom-text {
+    padding-left: 60px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;  
+    position: relative;
+    margin-bottom: 17px;
+}
+.header_bottom-text:before {
+    position: absolute;
+    content: "";
+    width: 43px;
+    height: 2px;
+    background: #0079C0;
+    top: 17px;
+    left: 0;
+}
+.header_advantages {
+    display: flex;
+    margin-bottom: 37px;
+}
+.header_advantages-item {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+.header_advantages-item:last-child {
+    margin-right: 0;
+}
+.header_advantages-item-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 17px;
+}
+.header_bottom {
+    margin-top: 300px;
+}
+.partners-page .header_btn button {
+    width: 204px;
+    height: 60px;
+    background: #0079C0;
+    border-radius: 4px; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 
 
