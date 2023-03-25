@@ -97,7 +97,10 @@
     .about, 
     .reviews, 
     .callback, 
-    footer {
+    footer,
+    .certificate,
+    .service,
+    .work {
         padding: 30px 0;
     }
     .footer_menu li {
@@ -126,6 +129,15 @@
     }
     .work_items > * {
         width: calc(100%/2 - 20px);
+    }
+    .certificate_items {
+        margin-left: -15px;
+        margin-bottom: -20px;
+    }
+    .certificate_items > * {
+        width: calc(100%/3 - 15px);
+        margin-left: 15px;
+        margin-bottom: 20px;
     }
 
 

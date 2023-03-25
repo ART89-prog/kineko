@@ -107,7 +107,8 @@
     .callback,
     footer,
     .service,
-    .work {
+    .work,
+    .certificate {
         padding: 40px 0;
     }
     .footer_wrap {
