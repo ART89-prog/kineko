@@ -71,8 +71,8 @@
     .about_left {
         width: calc(100% - 700px);
     }
-    .footer_wrap {
-        align-items: center;
+    .callback_img {
+        bottom: -80px;
     }
 
 

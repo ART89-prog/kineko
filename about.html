@@ -70,7 +70,7 @@
 								<span>Пн - Пт с 9:00 до 18:00</span>
 							</div>
 							<div class="header_btn">
-								<button class="btn-callback modal_link">Обрытный звонок</button>
+								<button class="btn-callback modal_link" data-content="#modal_callback">Обрaтный звонок</button>
 							</div>
 						</div>
 					</nav>
@@ -80,7 +80,7 @@
 							<span>Пн - Пт с 9:00 до 18:00</span>
 						</div>
 						<div class="header_btn">
-							<button class="btn-callback modal_link">Обрытный звонок</button>
+							<button class="btn-callback modal_link" data-content="#modal_callback">Обрaтный звонок</button>
 						</div>	
 					</div>
 					
@@ -117,18 +117,18 @@
 							</a>
 						</div>
 						<div class="about_right">
-							<div class="about_right-img1">
+							<a href="images/about1.jpg" class="about_right-img1" data-fancybox="gallery">
 								<img src="images/about1.jpg" alt="">
-							</div>
-							<div class="about_right-img2">
+							</a>
+							<a href="images/about2.jpg" class="about_right-img2" data-fancybox="gallery">
 								<img src="images/about2.jpg" alt="">
-							</div>
-							<div class="about_right-img3">
+							</a>
+							<a href="images/about3.jpg" class="about_right-img3" data-fancybox="gallery">
 								<img src="images/about3.jpg" alt="">
-							</div>
-							<div class="about_right-img4">
+							</a>
+							<a href="images/about4.jpg" class="about_right-img4" data-fancybox="gallery">
 								<img src="images/about4.jpg" alt="">
-							</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -218,7 +218,7 @@
 						<span>Пн - Пт с 9:00 до 18:00</span>
 					</div>
 					<div class="footer_btn">
-						<button class="btn-callback">Обрaтный звонок</button>
+						<button class="btn-callback" data-content="#modal_callback">Обрaтный звонок</button>
 					</div>
 				</div>
 				<a href="#" class="footer_politic">Политика конфиденцильности</a>
@@ -237,29 +237,26 @@
 
 
 
-	<!-- <section class="modal" id="modal_callback">
-		<div class="modal_title title">Заказать звонок</div>
-		<div class="modal_text">Оставьте заявку. И оператор с вами свяжется в ближайшие 2 часа!</div>
+	<section class="modal" id="modal_callback">
 		<form>
+			<div class="form_title">Оставьте свои контакты, чтобы мы связались с вами
+				и индивидуально рассчитали стоимость работ на вашем объекте
+			</div>
 			<div class="line">
 				<div class="field">
-					<label for="name">Ваше имя</label>
-					<input type="text" id="name" placeholder="Евгений">
+					<img src="images/form_name.svg" alt="">
+					<input type="text" placeholder="Ваше имя:">
 				</div>
 			</div>
 			<div class="line">
 				<div class="field">
-					<label for="phone">Контактный номер телефона</label>
-					<input type="tel" id="phone" class="success" placeholder="+7 (___) ___-__-__">
+					<img src="images/form_tel.svg" alt="">
+					<input type="tel" placeholder="Ваш телефон:">
 				</div>
 			</div>
-			<div class="modal_politic">Заполняя форму, вы соглашаетесь с обработкой персональных данных согласно <a
-					href="#">пользовательского соглашения</a></div>
-			<button type="submit" class="modal_link" data-content="#modal_callback3">
-				<span>Заказать звонок</span>
-			</button>
+			<button type="submit">Перезвоните мне</button>
 		</form>
-	</section> -->
+	</section>
 
 
 

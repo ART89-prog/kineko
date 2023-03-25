@@ -30,9 +30,89 @@
         font-size: 20px;
         line-height: 1.5;
     }
-
-
-
+    .about_video {
+        width: 100%;
+        height: auto;
+    }
+    .reviews_title,
+    .title,
+    .callback_title {
+        font-size: 26px;
+        text-align: center;
+        display: block;
+        margin-bottom: 18px;
+    }
+    .reviews_title:after,
+    .reviews_title:before,
+    .title:after {
+        display: none;
+    }
+    .reviews_wrap {
+        flex-direction: column;
+    }
+    .reviews_info {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .reviews_info-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    .reviews_info-text p {
+        margin-bottom: 15px;
+    }
+    .reviews_info-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .block_head {
+        margin-bottom: 0px;
+    }
+    form {
+        padding: 20px;
+    }
+    .footer_wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_menu {
+        order: 0;
+        column-count: 1;
+        column-gap: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer_logo {
+        margin-left: auto;
+    }
+    .footer_contacts {
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+    .footer_politic {
+        margin-top: 20px;
+    }
+    .about, 
+    .reviews, 
+    .callback, 
+    footer {
+        padding: 30px 0;
+    }
+    .footer_menu li {
+        line-height: 32px;
+    }
+    .modal form {
+        padding: 0px;
+    }
+    .modal.fancybox__content {
+        padding: 20px;
+    }
+    .form_title {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 13px;
+    }
 
 
 

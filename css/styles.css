@@ -613,24 +613,28 @@ header .cont {
     transform: rotate(-11.39deg);
     z-index: 1;
     margin-top: -55px;
+    display: block;
 }
 .about_right-img2 {
    margin-top: -75px;
    margin-left: 200px;
    z-index: 2;
    transform: rotate(7.83deg);
+   display: block;
 }
 .about_right-img3 {
     transform: rotate(-4.73deg);
     margin-top: -70px;
     margin-left: 310px;
     z-index: 3;
+    display: block;
 }
 .about_right-img4 {
     transform: rotate(7.29deg);
     margin-left: 50px;
     margin-top: -80px;
     z-index: 4;
+    display: block;
 }
 
 
@@ -760,19 +764,19 @@ header .cont {
     margin-bottom: 22px;
     max-width: 342px;
 }
-.callback form .line {
+form .line {
     margin-bottom: 18px;
 }
-.callback form .field {
+form .field {
     position: relative;
 }
-.callback form .field img {
+form .field img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 16px;
 }
-.callback form .field input {
+form .field input {
     height: 50px;
     width: 100%;
     border: 1px solid #EAEAEA;
@@ -784,7 +788,7 @@ header .cont {
     line-height: 17px;
     color: #404040;
 }
-.callback form button {
+form button {
     width: 100%;
     height: 60px;
     background: #0079C0;
@@ -887,4 +891,10 @@ footer {
     color: #000000;
     text-align: center;
     display: block;
+}
+
+
+.modal {
+    border-radius: 5px;
+    display: none;
 }

@@ -108,6 +108,9 @@
     footer {
         padding: 40px 0;
     }
+    .footer_wrap {
+        align-items: center;
+    }
 
 
 
