@@ -1033,6 +1033,113 @@ footer {
 
 
 
+.contacts {
+    margin-top: 90px;
+    padding: 65px 0 100px;
+}
+.contacts_wrap {
+    display: flex;
+    align-items: center;
+}
+.contacts_info {
+    margin-left: 100px;
+}
+.contacts_phone {
+    margin-bottom: 30px;
+}
+.contacts_phone a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;   
+}
+.contacts_email a {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2681A8;   
+}
+.contacts_email {
+    margin-bottom: 30px;
+}
+.map_wrap {
+    position: relative;
+    max-width: 100%;
+    transform: translateZ(0);
+    width: 665px;
+    height: 304px;
+    box-shadow: 0px 20px 20px rgba(47, 51, 53, 0.2);
+    border-radius: 5px;
+}
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.contacts_info span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+
+
+.contacts-page .callback .cont {
+    display: block;
+}
+.contacts-page .callback_title.title {
+    margin-bottom: 20px;
+}
+.contacts-page .callback_title.title:after {
+    display: none;
+}
+.contacts-page .callback form {
+    display: flex;
+    align-items: stretch;
+    background: none;
+    padding: 0;
+    z-index: 55;
+    position: relative;
+    max-width: 824px;
+    width: 100%;
+}
+.contacts-page .callback_text {
+    max-width: 530px;
+    font-weight: 450;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 44px;
+}
+.contacts-page .callback form textarea {
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    width: 438px;
+    height: 202px;
+    margin-right: 26px;
+    resize: none;
+    padding: 16px 20px;
+    font-family: 'Futura New';
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 17px;
+    color: #404040;
+}
+.contacts-page .callback form .line {
+    width: 100%;
+    margin-bottom: 0;
+}
+.contacts-page .callback form .line:nth-child(2) .field {
+    margin-bottom: 18px;
+}
+
+
 .modal {
     border-radius: 5px;
     display: none;

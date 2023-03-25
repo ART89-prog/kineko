@@ -12,7 +12,7 @@
 	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
 	<!-- Заголовок страницы -->
-	<title>Допуски и сертификаты</title>
+	<title>Контакты</title>
 
 	<!-- Подключение шрифтов -->
 
@@ -38,7 +38,7 @@
 
 <body>
 	<div class="wrap">
-		<div class="main">
+		<div class="main contacts-page">
 			<header>
 				<div class="cont">
 					<a href="index.html" class="header_logo">
@@ -98,19 +98,26 @@
 
 
 
-			<section class="certificate">
+			<section class="contacts">
 				<div class="cont">
-					<div class="certificate_title title">Допуски и сертификаты</div>
-					<div class="certificate_items">
-						<a href="images/certificate1.jpg" class="certificate_item" data-fancybox="gallery">
-							<img src="images/certificate1.jpg" alt="">
-						</a>
-						<a href="images/certificate2.jpg" class="certificate_item" data-fancybox="gallery">
-							<img src="images/certificate2.jpg" alt="">
-						</a>
-						<a href="images/certificate3.jpg" class="certificate_item" data-fancybox="gallery">
-							<img src="images/certificate3.jpg" alt="">
-						</a>
+					<div class="contacts_title title">Контакты</div>
+					<div class="contacts_wrap">
+						<div class="map_wrap">
+							<div id="map"></div>													
+						</div> 
+						<div class="contacts_info">
+							<div class="contacts_phone">
+								<span>Телефон:</span>
+								<a href="tel:84956410804">8 (495) 641-08-04</a>
+							</div>
+							<div class="contacts_email">
+								<span>E-mail:</span>
+								<a href="mailto:info@kineko.ru">info@kineko.ru</a>
+							</div>
+							<div class="contacts_adress">
+								<span> ООО "Кинеко"<br> г. Москва, ул. Генерала Белобородова, д. 35/2,<br> этаж 1 пом. XIII к. 3 офис 2</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -119,24 +126,25 @@
 
 			<section class="callback">
 				<div class="cont">
-					<div class="callback_title">Рассчитать <br>стоимость работ</div>
-					<form>
-						<div class="form_title">Оставьте свои контакты, чтобы мы связались с вами
-							и индивидуально рассчитали стоимость работ на вашем объекте
-						</div>
+					<div class="callback_title title">Остались вопросы?</div>
+					<div class="callback_text">Опишите, что вас интересует и наши специалисты свяжутся с вами, чтобы дать бесплатную консультацию</div>
+					<form>	
+						<div class="line">
+							<div class="field">
+								<textarea placeholder="Ваш вопрос"></textarea>
+							</div>
+						</div>				
 						<div class="line">
 							<div class="field">
 								<img src="images/form_name.svg" alt="">
 								<input type="text" placeholder="Ваше имя:">
 							</div>
-						</div>
-						<div class="line">
 							<div class="field">
 								<img src="images/form_tel.svg" alt="">
 								<input type="tel" placeholder="Ваш телефон:">
 							</div>
-						</div>
-						<button type="submit">Перезвоните мне</button>
+							<button type="submit">Перезвоните мне</button>
+						</div>												
 					</form>
 					<div class="callback_img">
 						<img data-src="images/callback_img.png" alt="" class="lozad">
@@ -228,6 +236,38 @@
 	<script src="js/inputmask.min.js"></script>
 	<script src="js/functions.js"></script>
 	<script src="js/scripts.js"></script>
+
+
+	<script src="https://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+	<script>
+		$(window).on('load', () => {
+			ymaps.ready(() => {
+				let myMap = new ymaps.Map('map', {
+					center: [55.830695,37.355866],
+					zoom: 16,
+					controls: []
+				})
+						
+				// Кастомный маркер
+				let myPlacemark = new ymaps.Placemark([55.830695,37.355866], {}, {
+					iconLayout : 'default#image',
+					iconImageHref : 'images/marker.svg',
+					iconImageSize : [44, 50],
+					/*iconImageOffset : [-116, -172]*/
+				})
+
+				myMap.geoObjects.add(myPlacemark)
+
+				myMap.controls.add('zoomControl', {
+					position : {
+						right : '20px',
+						top   : '20px'
+					}
+				})
+				myMap.behaviors.disable('scrollZoom')
+			})
+		})
+	</script>
 
 
 </body>
