@@ -1308,10 +1308,6 @@ footer {
 .partners-page header .menu .item a {
     color: #fff;
 }
-.partners-page .header_top {
-    top: 11px;
-    position: fixed;
-}
 .header_bottom-title {
     font-weight: 700;
     font-size: 43px;
@@ -1357,22 +1353,33 @@ footer {
     margin-left: 17px;
 }
 .header_bottom {
-    margin-top: 300px;
+    margin-top: 225px;
 }
 .partners-page .header_btn button {
+    width: 172px;
+    height: 50px;
+    background: rgba(0, 121, 192, 0.47);
+    border-radius: 4px; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.partners-page .header_consultation {
+    display: flex;
+    align-items: center;
+}
+.partners-page .header_consultation button {
     width: 204px;
     height: 60px;
     background: #0079C0;
-    border-radius: 4px; 
+    border-radius: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 60px;
     text-align: center;
     color: #FFFFFF;
-}
-.partners-page .header_btn {
-    display: flex;
-    align-items: center;
 }
 .header_btn-text {
     font-weight: 400;
@@ -1381,6 +1388,74 @@ footer {
     color: #FFFFFF;
     margin-left: 25px;
 }
+.header_img {
+    position: absolute;
+    bottom: -390px;
+    right: -75px;
+}
+
+
+.partners {
+    padding: 150px 95px;
+    background: #fafafa;
+}
+.partners_title {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 70px;
+}
+.partners_title:before {
+    position: absolute;
+    content: "";
+    width: 95px;
+    height: 2px;
+    background: #0079C0;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.partners_title.title:after {
+    display: none;
+}
+.partners_items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-bottom: -30px;
+}
+.partners_items > * {
+    width: calc(100%/4 - 20px);
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.partners_item-img {
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+.partners_item-title {
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.partners_item-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
 
 
 
