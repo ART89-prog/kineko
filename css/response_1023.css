@@ -1,11 +1,4 @@
 @media print, (max-width: 1023px) {
- 
-    /* :root {
-        --font_size: 16px;
-        --font_size_title: 28px;
-    }
-   */
-
 
     .about_wrap {
         flex-direction: column;
@@ -89,6 +82,9 @@
     .footer_name span {
         line-height: 17px;
         margin-top: 4px;
+    }
+    .footer_menu li a {
+        line-height: 30px;
     }
     .form_title {
         font-size: 18px;

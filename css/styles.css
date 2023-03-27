@@ -844,7 +844,8 @@ footer {
     column-count: 2;
     column-gap: 45px
 }
-.footer_menu li {
+.footer_menu li a {
+    text-decoration: none;
     font-weight: 400;
     font-size: 15px;
     line-height: 60px;
@@ -853,8 +854,7 @@ footer {
 .footer_contacts {
     position: relative;
     padding-left: 37px;
-    margin-right: 16px;
-    margin-left: auto;
+    margin-right: 16px;    
 }
 .footer_contacts:before {
     position: absolute;
@@ -890,6 +890,11 @@ footer {
     color: #000000;
     text-align: center;
     display: block;
+}
+.footer_box {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 
